@@ -9,7 +9,7 @@
     <v-toolbar-title
       @click="navigateTo({name:'songs'})"
       class="root">
-      Tab Tracker
+      Song Tracker
     </v-toolbar-title>
     <v-btn
         depressed dark

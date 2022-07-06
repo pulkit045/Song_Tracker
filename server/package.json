@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon src/app.js",
     "lint": "./node_modules/.bin/eslint **/*.js",
-    "seed": "node ./seed"
+    "seed": "node ./seed",
+    "rebuild": "electron-rebuild -f -w sqlite3"
   },
   "keywords": [],
   "author": "",
@@ -25,12 +26,13 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
     "path": "^0.12.7",
-    "sequelize": "^5.21.5",
-    "sqlite3": "^4.2.0"
+    "sequelize": "^5.22.5",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
+    "electron-rebuild": "^3.2.7",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.1",
